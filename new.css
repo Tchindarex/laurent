@@ -1,0 +1,410 @@
+body
+{
+  background-image: url('background\ image.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+  height: 100vh;
+ 
+}
+marquee
+{
+  color: #fff;
+  background-color:rgb(130, 104, 67) ;
+  font-size: large;
+  font-weight: 1000;
+  justify-content: center;
+  text-align: center;
+}
+nav
+{
+ margin-top: -10px;
+  height: 60px;
+}
+nav img{
+  height: 40px;
+  width: 40px;
+}
+#navbarNavAltMarkup
+{
+ 
+justify-content: right;
+font-size: 30px;
+cursor: pointer;
+font-weight: 400;
+
+}
+.navbar-nav a
+{
+ border-radius: 100px;
+ 
+
+}
+.navbar-nav a:hover
+{
+background-color: black;
+border-bottom:7px solid rgb(130, 104, 67) ;
+border-left: 10px solid rgb(130, 104, 67);
+
+}
+#home
+{
+color: green;
+padding-right: 60px;
+
+}
+#services
+{
+color: red;
+padding-right: 40px;
+
+}
+#Contact
+{
+color: maroon;
+padding-right: 20px;
+}
+
+.centerd-content
+{
+height: 85vh;
+align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: rgba(23, 23, 23, 0.6); /* Semi-transparent background color */
+
+  
+}
+.centerd-content h1
+{
+  padding-top: 50px;
+  font-size: 50px;
+  color: #fff;
+}
+.centerd-content p
+{
+  padding-top: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+.centerd-content button
+{
+  margin-top: 50px;
+  border-color:#fff ;
+  background-color:rgb(130, 104, 67) ;
+  cursor: pointer;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  font-weight: 722;
+  border-radius: 2px;
+  margin-bottom: 20px;
+
+}
+.centerd-content button:hover{
+  background-color: transparent;
+}
+.black-cards
+{
+  justify-content: center;
+  text-align: center;
+
+  background: rgba(23, 23, 23, 0.8);
+  height: 80vh;
+}
+ .black-cards .custom-card
+{
+color: #fff;
+  background-color: black;
+  margin-left: 50px;
+  height: 85%;
+  width: 400px;
+
+  
+}
+
+.black-cards .card-header
+{
+ border: 2px solid rgb(130, 104, 67);
+ color:rgb(130, 104, 67);
+ font-weight: 800;
+ letter-spacing: 2px;
+}
+.black-cards button
+{
+background-color:rgb(130, 104, 67) ;
+height:50px ;
+width: 150px;
+cursor: pointer;
+color: black;
+font-size: 20px;
+font-weight: 10px;
+border: none;
+border-radius: 3px;
+
+
+}
+.black-cards button:hover
+{
+  background-color: #fff;
+}
+.content-tworole
+{
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(23, 23, 23, 0.8);
+}
+.div1
+{
+  background-color:  rgb(130, 104, 67);
+  color: #fff;
+  height: 700px;
+  align-items:center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  width: 600px;
+  padding-top: 60px;
+}
+.div2
+{
+  padding-left: 40px;
+  background-color:  rgb(130, 104, 67);
+  color: #fff;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 700px;
+  font-size: 20px;
+  width: 600px;
+  padding-top: 60px;
+}
+.div2 p{
+  padding-bottom: 30px;
+}
+.div2 button
+{
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  height: 50px;
+  width: 180px;
+  margin-top: 60px;
+}
+.div2 button:hover
+{
+  background-color: blue;
+}
+.img-div
+{
+  height: 90vh;
+  justify-content: center;
+  background: rgba(23, 23, 23, 0.8);
+display: flex;
+gap: 20px;
+}
+.image-custom{
+  max-width: 700px;
+  height: 400px;
+  object-fit: cover; /* Ensures the image covers the specified dimensions */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+footer
+{
+  background-color: #fff;
+  height: 350px;
+  padding-top:40px ;
+  
+
+
+}
+.logo-footer
+{
+  padding-left: 270px;
+  border-right: 1px solid black;
+}
+footer .contact
+{
+
+padding-left: 40px;
+border-right: 1px solid black;
+}
+footer .availability
+{
+  padding-left: 60px;
+}
+
+#E-firstpage
+{
+  color: #fff;
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.centerd-content2
+{
+  height: 50vh;
+  background: rgba(23, 23, 23, 0.5);
+}
+.centerd-content2 h1
+{
+  font-size: 80px;
+  font-weight: 700px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+padding-top:130px ;
+  letter-spacing: 0px;
+
+
+}
+.formm
+{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.formm button
+{
+  height: 60px;
+  width: 150px;
+ border: none;
+ color: #fff;
+ cursor: pointer;
+ font-size: 20px;
+ font-weight: 800;
+  background-color:rgb(130, 104, 67) ;
+  margin-bottom: 15px;
+}
+.formm button:hover{
+  background-color: black;
+}
+.form1
+{
+  width: 800px;
+color: rgb(130, 104, 67);
+padding-top: 30px;
+
+}
+.form1 input
+{
+  border-bottom: 7px solid rgb(130, 104, 67);
+ 
+}
+.form2
+{
+  padding-top: 30px;
+}
+.form2 p .icon{
+  color: rgb(130, 104, 67);
+  cursor: pointer;
+
+}
+.card-container
+{
+  background-color: #fff;
+  color: black;
+  
+
+}
+#card_p p{
+  width:1100px;
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 30px;
+}
+.card-container .card
+{
+  margin-left: 90px;
+}
+#card_alignment
+{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+#card_alignment .card
+{
+cursor:pointer;
+height: auto;
+}
+.text_aline_divs
+{
+ 
+ display: flex; 
+ height: 40vh;
+ background-color: rgba(23, 23, 23, 0.6);
+
+
+}
+
+.text_aline_divs h1
+{
+  border-left: 9px solid rgb(130, 104, 67);
+  border-bottom:2px solid rgb(130, 104, 67);
+  padding-left: 20px;
+  padding-bottom: 10px;
+
+
+}
+.flex-container
+{
+  height: 80px;
+  width: 700px;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 20px;
+  color: #fff;
+}
+.image_divs_arrangement
+{
+  padding-top: 40px;
+}
+.call_button
+{
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(130, 104, 67);
+  color: orange;
+  font-weight: 700;
+  height: 70px;
+  width: 160px;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+.call_button:hover{
+  background-color: black;
+}
+.pagination_container
+{
+  padding-top: 30px;
+height: 10%;
+background-color: rgba(23, 23, 23, 0.8);
+
+}
+.pagination
+{
+ align-items: center;
+ justify-content: center;
+ display: flex;
+}
+.pagination a
+{
+  background-color: black;
+  color: aqua;
+font-weight: 600;
+}
+.pagination li :hover
+{
+background-color: rgb(130, 104, 67);
+color: orange;
+}

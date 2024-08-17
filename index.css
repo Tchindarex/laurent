@@ -1,0 +1,93 @@
+
+
+nav {
+  background-color: black;
+}
+
+#carouselExampleDark {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+  max-height: 600px; 
+  overflow: hidden; 
+}
+
+.carousel h5 {
+  color: #fff;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover; 
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  overflow: hidden;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  height: auto; 
+  width: auto; 
+}
+
+#sec-container {
+  background-color: black;
+  display: flex;
+  align-items: center; 
+}
+
+#sec-container button {
+  border-radius: 50px;
+  background-color: #fff;
+  color: black;
+}
+
+.sec-div {
+  height: fit-content;
+  padding-left: 50px;
+}
+
+#sec-container img {
+  width: 400px;
+  height: auto;
+}
+
+.im {
+  position: relative;
+}
+
+.text-overlay {
+  color: white;
+  text-align: center;
+}
+
+.text-overlay h1, .text-overlay p {
+  margin: 0;
+}
+
+.text-overlay button {
+  margin-top: 10px;
+}
+
+.cardslp {
+  background-color: black;
+}
+.container2
+{
+  background-color: black;
+}
